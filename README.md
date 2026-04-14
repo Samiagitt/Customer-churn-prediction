@@ -5,6 +5,7 @@ This project is a machine learning-powered web application that predicts whether
 
 The application is built using Streamlit and a trained Random Forest pipeline, providing an interactive interface for real-time predictions.
 
+
 🧠 Problem Statement
 
 Customer churn is a major challenge for businesses. Identifying customers who are likely to leave helps companies take proactive actions to improve retention.
@@ -16,6 +17,7 @@ Predict churn probability
 Provide quick insights through an interactive UI
 
 Demonstrate an end-to-end ML workflow
+
 
 
 ⚙️ Tech Stack
@@ -30,6 +32,7 @@ Streamlit
 Joblib
 
 
+
 🔍 Features
 
 ✔ User-friendly web interface
@@ -41,6 +44,7 @@ Joblib
 ✔ Handles categorical + numerical inputs
 
 ✔ End-to-end ML pipeline integration
+
 
 
 📊 Input Features
@@ -64,6 +68,7 @@ Total Charges
 Tech Support
 
 
+
 🧪 How It Works
 
 User inputs customer details through the UI
@@ -75,11 +80,13 @@ Input is aligned with model features
 Pre-trained pipeline processes the data
 
 
+
 Model predicts:
 
 Churn / Not Churn
 
 Probability score
+
 
 
 🖥️ Application Preview
@@ -91,6 +98,7 @@ Enter customer information
 Click Predict
 
 Instantly see results
+
 
 
 🔮 Future Improvements
