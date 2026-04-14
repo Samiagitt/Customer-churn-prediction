@@ -1,92 +1,70 @@
-# Customer-churn-prediction-App
-📌 Overview
+# Customer Churn Prediction App
 
-This project is a machine learning-powered web application that predicts whether a customer is likely to churn based on their demographic and service-related information.
+## Overview
 
-The application is built using Streamlit and a trained Random Forest pipeline, providing an interactive interface for real-time predictions.
+This project is a machine learning application that predicts whether a customer is likely to churn based on demographic and service-related features. It demonstrates an end-to-end ML pipeline from data preprocessing to deployment using Streamlit.
 
+---
 
-🧠 Problem Statement
+## Objectives
 
-Customer churn is a major challenge for businesses. Identifying customers who are likely to leave helps companies take proactive actions to improve retention.
+- Predict customer churn using classification models  
+- Help businesses identify high-risk customers  
+- Build a real-time prediction system  
 
-This project aims to:
+---
 
-Predict churn probability
+## Dataset
 
-Provide quick insights through an interactive UI
+- Customer churn dataset  
+- Includes customer demographics, services, and billing information  
 
-Demonstrate an end-to-end ML workflow
+---
 
+## Data Processing Steps
 
+- Handled missing values  
+- Encoded categorical variables  
+- Feature selection and transformation  
+- Built pipeline for preprocessing + model  
 
-⚙️ Tech Stack
-Python
+---
 
-Scikit-learn (Random Forest)
+## Model Details
 
-Pandas
+- Model: Random Forest Classifier  
+- Used pipeline for preprocessing and prediction  
+- Output: Churn / Not Churn + probability score  
 
-Streamlit
+---
 
-Joblib
+## Features Used
 
+- Age  
+- Gender  
+- Tenure  
+- Monthly Charges  
+- Contract Type  
+- Internet Service  
+- Total Charges  
+- Tech Support  
 
+---
 
-🔍 Features
+## Application Features
 
-✔ User-friendly web interface
+- Interactive Streamlit UI  
+- Real-time prediction  
+- Probability output  
+- Handles structured user input  
 
-✔ Real-time churn prediction
+---
 
-✔ Probability score output
+## How It Works
 
-✔ Handles categorical + numerical inputs
+User Input → Data Processing → Model Prediction → Output Display  
 
-✔ End-to-end ML pipeline integration
-
-
-
-📊 Input Features
-
-The model uses the following features:
-
-Age
-
-Gender
-
-Tenure
-
-Monthly Charges
-
-Contract Type
-
-Internet Service
-
-Total Charges
-
-Tech Support
-
-
-
-🧪 How It Works
-
-User inputs customer details through the UI
-
-Data is structured into a dataframe
-
-Input is aligned with model features
-
-Pre-trained pipeline processes the data
-
-
-
-Model predicts:
-
-Churn / Not Churn
-
-Probability score
-
+---
 
 
 🖥️ Application Preview
@@ -110,6 +88,16 @@ Deploy on cloud (Streamlit Cloud / Render)
 Add user authentication
 
 Improve UI/UX
+
+
+
+## How to Run
+
+```bash
+git clone <repo-link>
+cd churn-app
+pip install -r requirements.txt
+streamlit run app.py
 
 
 
