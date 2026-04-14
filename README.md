@@ -67,16 +67,6 @@ User Input → Data Processing → Model Prediction → Output Display
 ---
 
 
-🖥️ Application Preview
-
-👉 Users can:
-
-Enter customer information
-
-Click Predict
-
-Instantly see results
-
 
 
 🔮 Future Improvements
